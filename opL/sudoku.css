@@ -1,0 +1,24 @@
+table {
+  border-collapse: collapse;
+  margin-left: auto;
+  margin-right: auto;
+  }
+td { 
+  text-align: center;
+  border-style: solid;
+  border-width: 1px;
+  width: 30px;
+  height: 30px;
+  }
+td.u {
+  border-top-width: 5px;
+  }
+td.d {
+  border-bottom-width: 5px;
+  }
+td.l {
+  border-left-width: 5px;
+  }
+td.r {
+  border-right-width: 5px;
+}
