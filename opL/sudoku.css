@@ -22,3 +22,6 @@ td.l {
 td.r {
   border-right-width: 5px;
 }
+p.sudokuDescribe {
+  text-align:right;
+}
