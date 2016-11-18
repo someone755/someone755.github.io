@@ -16,6 +16,9 @@ tr:nth-child(3n+4) {
 td:nth-child(3n+4) {
   border-left: 5px solid;
 }
+td.number {
+  background-color: gray;
+}
 p.sudokuDescribe {
   text-align:center;
 }
