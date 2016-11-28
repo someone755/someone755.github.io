@@ -53,7 +53,7 @@ document.getElementById("scriptTimer").innerHTML = timeOut;
 
 var input = Number(prompt("Enter a number [1-9]")) - 1;
 // Reusing an old unused variable saves some memory.
-tableOut = "<p>" + "You selected number " + input + ". Here are the contents of the elements with that index:<br>";
+tableOut = "<p>" + "You selected number " + (input + 1) + ". Here are the contents of the elements with that index:<br>";
 tableOut += "Row: ";
 /*
  * Yes, we're scanning the individual rows, but to do
@@ -78,7 +78,7 @@ for (sudokuRow = 0; sudokuRow < 9; sudokuRow++) {
 tableOut += "<br>3x3 square: "
 /*
  * Alright buckle up kids, this is a hardcore motherfucker.
- * We need two variables to count over each the 3x3 grid's
+ * We need two variables to count over each of the 3x3 grid's
  * two axes and thus collect all 9 <td>s.
  * First, we find which row this is happening in, so imagine that our
  * 9x9 grid (array) is composed of 9 individual 3x3 squarelets, like
