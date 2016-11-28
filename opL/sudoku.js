@@ -52,6 +52,7 @@ timeOut += " ms";
 document.getElementById("scriptTimer").innerHTML = timeOut;
 
 var input = Number(prompt("Enter a number [1-9]")) - 1;
+timeStartScript = performance.now(); // Time the second part of the script.
 // Reusing an old unused variable saves some memory.
 tableOut = "<p>" + "You selected number " + (input + 1) + ". Here are the contents of the elements with that index:<br>";
 tableOut += "Row: ";
@@ -145,3 +146,8 @@ for (timeOut = 0; timeOut < 3; timeOut++) {
 }
 // Print this fucker.
 document.getElementById("sudokuPrompt").innerHTML = tableOut;
+timeEndScript = performance.now(); // ends timer for second part of script
+timeOut = "Selected data loaded in ";
+timeOut += Math.round((timeEndScript - timeStartScript)*1e6)/1e6; // round delta off to 6 decimal places
+timeOut += " ms";
+tableOut += "<br>" + timeOut;
