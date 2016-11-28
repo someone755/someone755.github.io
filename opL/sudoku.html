@@ -6,8 +6,12 @@
     <link rel="stylesheet" type="text/css" href="sudoku.css">
   </head>	
   <body>
+    <!-- This is where we draw the table using innerHTML. -->
     <div id="sudokuTable"></div> 
     <p class="sudokuDescribe">A proof of concept, this simple sudoku board is meant to teach the basics of HTML, CSS, and JavaScript file layout and thought process.<br>To learn more, feel free to look at the page's GitHub commit history.</p>
+    <!-- This paragraph is used only to print the time taken to load the page. -->
+    <!-- Useful as a toy and perhaps for future optimization. -->
+    <p class="sudokuDescribe" id="scriptTimer"></p>
     <script type='text/javascript' src='sudoku.js'></script>
   </body>
 </html>
