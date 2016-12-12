@@ -19,6 +19,13 @@ td:nth-child(3n+4) {
 td.number {
   background-color: gray;
 }
-p.sudokuDescribe {
+td.noNumber {
+	cursor: pointer;
+	cursor: hand;
+}
+.sudokuDescribe {
   text-align:center;
+  position:absolute;
+  bottom:0;
+  width: 99%;
 }
