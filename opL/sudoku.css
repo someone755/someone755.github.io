@@ -16,6 +16,10 @@ tr:nth-child(3n+4) {
 td:nth-child(3n+4) {
   border-left: 5px solid;
 }
+td.controls {
+	border: 5px solid;
+	border-collapse: inherit;
+}
 td.number {
   background-color: gray;
 }
