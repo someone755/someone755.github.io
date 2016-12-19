@@ -45,7 +45,7 @@ function sdkPossible (y, x) {
 		outputTbl += "<td class='controls noNumber' onclick=sudokuChange("+ y + "," + x + "," + sdkAccNum[i] +")>" + sdkAccNum[i] + "</td>";
 	}
 	// a "delete" button
-	outputTbl += "<td class='controls' onclick=sudokuChange("+ y + "," + x + "," + 0 +")>DEL</td></tr>";
+	outputTbl += "<td class='controls noNumber' onclick=sudokuChange("+ y + "," + x + "," + 0 +")>DEL</td></tr>";
 	document.getElementById("sudokuCtrl").innerHTML = outputTbl;
 }
 
@@ -87,13 +87,13 @@ var sdkArr = [[9, 0, 0, 5, 0, 0, 2, 0, 3],
 			  
 // an empty 9×9 array that holds the numbers from input
 var sdkLive = [[0, 0, 0, 0, 0, 0, 0, 0, 0],
-			   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-			   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-			   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-			   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-			   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-			   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-			   [0, 0, 0, 0, 0, 0, 0, 0, 0],
-			   [0, 0, 0, 0, 0, 0, 0, 0, 0]];
+	       [0, 0, 0, 0, 0, 0, 0, 0, 0],
+	       [0, 0, 0, 0, 0, 0, 0, 0, 0],
+	       [0, 0, 0, 0, 0, 0, 0, 0, 0],
+	       [0, 0, 0, 0, 0, 0, 0, 0, 0],
+	       [0, 0, 0, 0, 0, 0, 0, 0, 0],
+	       [0, 0, 0, 0, 0, 0, 0, 0, 0],
+	       [0, 0, 0, 0, 0, 0, 0, 0, 0],
+	       [0, 0, 0, 0, 0, 0, 0, 0, 0]];
 
 document.getElementById("sudokuTable").innerHTML = sdkTablePrint(sdkArr, sdkLive);
