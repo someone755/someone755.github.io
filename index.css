@@ -1,3 +1,69 @@
+.wrapper {
+  max-width: 100%;
+  margin: 0 auto;
+}
+.logo {
+	width:100px;
+	right: 0px;
+	bottom: 0px;
+}
+html {
+  background-color:#fafafa
+}
+body {
+  font-family: 'Open Sans', sans-serif;
+  line-height:1.4;
+  font-size:16px;
+  color:#444;
+  padding:0 0px
+}
+footer {
+	width:90%
+}
+nav{
+  margin:2rem auto;
+}
+nav.navtext{
+  line-height:3
+}
+h1,h2,h3 {
+  line-height:1.2
+}
 p.links {
-  margin-left: 40px;
+  margin-top:7px;
+  margin-bottom:0px;
+  margin-left:20px
+}
+/* Big 'ol screens */
+@media screen and (min-width: 801px) {
+  .wrapper {
+    max-width: 99%;
+  }
+    
+  nav, section {
+    float: left;
+  }
+
+  nav {
+    width: 21%;
+	margin-left:5%;
+    margin-right: 4%;
+  }
+
+  section {
+    width: 66%;
+	margin-right: 4%;
+  }
+
+}
+/* Tiny screens */
+@media screen and (max-width: 801px) {
+
+  .wrapper {
+    max-width: 66.66667%;
+  }
+  nav,section{
+	margin-right:10px;
+	margin-left:10px
+  }
 }
