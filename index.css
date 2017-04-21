@@ -4,8 +4,7 @@
 }
 .logo {
 	width:100px;
-	right: 0px;
-	bottom: 0px;
+	margin:auto;
 }
 html {
   background-color:#fafafa
@@ -18,7 +17,9 @@ body {
   padding:0 0px
 }
 footer {
-	width:90%
+	width:90%;
+	height:110px;
+	bottom:0;
 }
 nav{
   margin:2rem auto;
@@ -34,8 +35,20 @@ p.links {
   margin-bottom:0px;
   margin-left:20px
 }
+
+/* Tiny screens by default */
+/*@media screen and (max-width: 801px) {*/
+
+  .wrapper {
+    max-width: 90%;
+  }
+  nav,section{
+	margin-right:0%;
+	margin-left:0%
+  }
+
 /* Big 'ol screens */
-@media screen and (min-width: 801px) {
+@media (max-resolution: 2dppx) and (min-width: 801px) {
   .wrapper {
     max-width: 99%;
   }
@@ -54,16 +67,28 @@ p.links {
     width: 66%;
 	margin-right: 4%;
   }
+  footer {
+	display:block;
+	position:absolute;
+	bottom:0;
 
 }
-/* Tiny screens */
-@media screen and (max-width: 801px) {
-
-  .wrapper {
-    max-width: 66.66667%;
-  }
-  nav,section{
-	margin-right:10px;
-	margin-left:10px
-  }
+/* Some tiny screens are special tiny screens */
+@media only screen and (-webkit-min-device-pixel-ratio:1.3),
+	   only screen and (-o-min-device-pixel-ratio:13/10),
+	   only screen and (min-resolution:120dpi),
+	   only screen and (max-width:800px) {
+			.wrapper {
+				max-width: 90%;
+			}
+			nav,section{
+				width:90%;
+				margin-right:0%;
+				margin-left:0%
+			}
+			footer{
+				display:block;
+				position:fixed;
+				bottom:0;
+			}
 }
