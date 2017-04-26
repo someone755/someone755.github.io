@@ -31,7 +31,11 @@ body {
 	font-size: 60px;
 }
 @media only screen and (max-width:800px) {
-	.header{font-size:40px;	text-align:center; padding-left:0px;} /* !TODO: clean up media queries */
+	.header{
+		font-size:40px;
+		text-align:center;
+		padding-left:0px;
+	}
 }
 .menubar {
 	box-shadow: 0px 1px 2px 1px #888888;
@@ -70,7 +74,7 @@ body {
 	color:#444;
 	padding-bottom:20px;
 }
-.footerWrapper { /* !TODO: Nicer footer, logo, jump to top button */
+.footerWrapper {
 	box-shadow: 0px 2px 2px -1px #888888 inset;
 	background-color:#f1e8cd;
 	margin-bottom:0px;
@@ -78,8 +82,8 @@ body {
 	padding-top:20px;
 	padding-bottom:20px;
 }
-.footerContent{
-	max-width:800px;
+.footerContent {
+	max-width:600px;
 	width:70%;
 	margin:auto;
 	display:flex;
@@ -88,7 +92,7 @@ body {
 	align-items:center;
 }
 @media only screen and (max-width:600px) {
-	.footerContent{flex-direction:column;} /* !TODO: clean up media queries */
+	.footerContent{flex-direction:column;}
 }
 .footerText {
 	line-height:1.5;
@@ -101,9 +105,28 @@ body {
 	font-weight:650;
 	line-height:1.6;
 }
+.backToTop {
+	cursor:pointer;
+}
+.footerDivider {
+	height:70px;
+	width:1px;
+	background-color:#999999;
+	margin:auto;
+}
+@media only screen and (max-width:600px) {
+	.footerDivider{
+		width:70%;
+		height:1px;
+		margin-bottom:15px;
+	}
+}
 .logo {
 	width:100px;
 	margin:auto;
+	display:block;
+}
+.article {
 }
 h1,h2,h3 {
   line-height:1.2
@@ -125,4 +148,12 @@ h1,h2,h3 {
 }
 .paragraphLinks:active {
 	color:#990000;
+}
+.articleSeparator {
+	height:1px;
+	background-color:#888888;
+	width:60%;
+	margin:auto;
+	margin-top:30px;
+	margin-bottom:7px;
 }

@@ -5,6 +5,7 @@
 	<title>someone755</title>
 	<link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="index.css">
+	<script src="https://www.w3schools.com/lib/w3data.js"></script>
 </head>
 <body>
 <div class="pageWrapper">
@@ -18,11 +19,8 @@
 <!-- !TODO: Create above pages, you already have the template 80% done you dumbass -->
 			</div>
 	</div>
-	<div class="content">
-		<div class="article">
-	    <h1>This is my website.</h1>  
-	    <p class="paragraph">Whether you're lost or a brave explorer, welcome! This site is being made to showcase some of my online work and will evolve as I learn. It's far from finished though, but I am working on it! And you're more than welcome to track its progress, <a href="https://github.com/someone755/someone755.github.io/commits/master" class="paragraphLinks">here</a>!</p>
-		</div>
+	<div w3-include-html="indexFeed.html" class="content">
+<!-- The index page feed goes here -->
 	</div>
 	<div class="footerWrapper">
 		<div class="footerContent">
@@ -30,10 +28,14 @@
 			<a href="https://github.com/someone755/someone755.github.io" class="footerLinks paragraphLinks">Page source on GitHub</a>
 			<br><a href="https://fe.uni-lj.si/en/" class="footerLinks paragraphLinks">Faculty site home</a>
 			<br><a href="https://github.com/someone755/someone755.github.io/issues/new" class="footerLinks paragraphLinks">Report a bug</a>
+			<br><span class="footerLinks paragraphLinks backToTop" onclick="document.body.scrollTop = 0; document.documentElement.scrollTop = 0;">Back to top</span>
 		</div>
-			<object type="image/svg+xml" data="res/logo755.svg" class="logo">Your browser does not support SVG</object>
+		<div class="footerDivider">
+		</div>
+		<object type="image/svg+xml" data="res/logo755.svg" class="logo">Your browser does not support SVG</object>
 		</div>
 	</div>
 </div>
 </body>
+<script>w3IncludeHTML();</script>
 </html>
