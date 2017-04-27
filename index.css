@@ -132,8 +132,11 @@ h1,h2,h3 {
   line-height:1.2
 }
 .paragraph {
-	line-height:1.4;
-	font-size: 17px;
+	font-size:17px;
+}
+p, .paragraph {
+	line-height:1.6;
+	margin-top:0px;
 }
 .paragraphLinks{
 	color:#0077aa;
@@ -160,6 +163,7 @@ h1,h2,h3 {
 /* IMAGES */
 .imgDivLeft, .imgDivCenter, .imgDivRight {
 	width:100%;
+	display: inline-block;
 }
 .imgLeft, .imgCenter, .imgRight {
    border:1px solid #021a40;
@@ -192,6 +196,7 @@ h1,h2,h3 {
 	align-items:right;
 }
 .imgDescribe {
+	color:#888888;
 	font-size:12px;
 	margin-top:-3px;
 	padding-bottom:10px;
