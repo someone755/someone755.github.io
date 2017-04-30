@@ -1,43 +1,22 @@
 <!DOCTYPE html>
 <html lang="en-us">
 <head>
+	<title>someone755</title>
 	<meta charset="UTF-8" name="viewport" content="width=device-width">
 	<meta name="theme-color" content="#778699">
 	<link rel="shortcut icon" type="image/png" href="res/logo755.png">
+	<script src="res/w3data.js"></script>
 	<link rel="stylesheet" type="text/css" href="index.css">
-	<title>someone755</title>
 </head>
 <body>
 <div class="pageWrapper">
-	<a href="https://someone755.github.io" class="header">someone755</a>
-	<div class="menubar">
-		<div class="menutext">Menu:</div>
-		<div class="menuelements">
-			<a href="https://someone755.github.io" class="menulinks">Home</a>
-			<a href="https://someone755.github.io/projects.html" class="menulinks">Projects</a>
-			<a href="https://someone755.github.io/about.html" class="menulinks">About</a>
-<!-- !TODO: Create above pages, you already have the template 80% done you dumbass -->
-			</div>
-	</div>
+	<div w3-include-html="res/header.html"></div>
 	<div w3-include-html="indexFeed.html" class="content">
 <!-- The index page feed goes here -->
 	</div>
-	<div class="footerWrapper">
-		<div class="footerContent">
-		<div class="footerText">
-			<a href="https://github.com/someone755/someone755.github.io" class="footerLinks paragraphLinks">Page source on GitHub</a>
-			<br><a href="https://fe.uni-lj.si/en/" class="footerLinks paragraphLinks">Faculty site home</a>
-			<br><a href="https://github.com/someone755/someone755.github.io/issues/new" class="footerLinks paragraphLinks">Report a bug</a>
-			<br><span class="footerLinks paragraphLinks backToTop" onclick="document.body.scrollTop = 0; document.documentElement.scrollTop = 0;">Back to top</span>
-		</div>
-		<div class="footerDivider">
-		</div>
-		<img src="res/logo755.png" class="logo"></img>
-		</div>
-	</div>
+	<div w3-include-html="res/footer.html"></div>
 </div>
 </body>
-<link rel="stylesheet" type="text/css" href="res/OpenSans.css">
-<script src="res/w3data.js"></script>
 <script>w3IncludeHTML();</script>
+<link rel="stylesheet" type="text/css" href="res/OpenSans.css">
 </html>
