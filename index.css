@@ -1,205 +1,199 @@
-html {
-	font-size: 100%;
-	-webkit-text-size-adjust: 100%;
-	-ms-text-size-adjust: 100%;
+html{
+	font-size:100%;
+	-webkit-text-size-adjust:100%;
+	-ms-text-size-adjust:100%
 }
-body {
-	font-family: "Open Sans", Helvetica, sans-serif;
-	padding:0 0 0 0;
-	margin:0 0 0 0;
+body{
+	font-family:"Open Sans",Helvetica,sans-serif;
+	padding:0;
+	margin:0
 }
-.pageWrapper {
+.pageWrapper{
 	max-width:1600px;
 	margin:auto;
-	box-shadow: 0px 1px 2px 1px #888888;
-	background-color:#fafafa;
+	box-shadow:0 1px 2px 1px #888;
+	background-color:#fafafa
 }
-.header {
-	color:white;
-	font-weight:bold;
+.header{
+	color:#fff;
+	font-weight:700;
 	text-shadow:
 	-1px -1px 0 #000,
 	1px -1px 0 #000,
 	-1px 1px 0 #000,
 	1px 1px 0 #000;
-	background: url(res/header1.jpg) no-repeat scroll top;
-	background-size: 1600px auto;
+	background:url(res/header1.jpg) no-repeat top;
+	background-size:1600px auto;
 	line-height:245px;
 	padding-left:10%;
 	display:block;
 	text-decoration:none;
-	font-size: 60px;
+	font-size:60px
 }
-@media only screen and (max-width:800px) {
+@media only screen and (max-width:800px){
 	.header{
 		font-size:40px;
 		text-align:center;
-		padding-left:0px;
+		padding-left:0
 	}
 }
-.menubar {
-	box-shadow: 0px 1px 2px 1px #888888;
-	margin: auto;
+.menubar{
+	box-shadow:0 1px 2px 1px #888;
+	margin:auto
 }
-.menubar, .menulinks {
+.menubar,.menulinks{
 	background-color:#f1e8cd;
-	margin: 0px 0px 0px 0px;
-	padding: 0px 0px 0px 0px;
-	text-decoration:none;
+	margin:0;
+	text-decoration:none
 }
-.menutext {
-	display:none; /* !TODO: Media queries and JS */
+.menutext{
+	display:none /* !TODO: Media queries and JS */
 }
-.menuelements {
-	padding: 0px 10% 0px;
+.menuelements{
+	padding:0 10%
 }
-.menulinks {
-	display: inline-block;
-	padding: 15px 20px;
-	color:	#141412;
-	transition:0.5s;
+.menulinks{
+	display:inline-block;
+	padding:15px 20px;
+	color:#141412;
+	transition:.5s
 }
-.menulinks:hover {
+.menulinks:hover{
 	background-color: #141412;
-	color:white;
+	color:#fff
 }
 .menulinks:active {
-	background-color: #990000;
+	background-color: #900
 }
-.content {
+.content{
 	padding-top:12px;
 	width:85%;
 	margin:auto;
 	max-width:650px;
 	color:#444;
-	padding-bottom:20px;
+	padding-bottom:20px
 }
-.footerWrapper {
-	box-shadow: 0px 2px 2px -1px #888888 inset;
+.footerWrapper{
+	box-shadow:0 2px 2px -1px #888 inset;
 	background-color:#f1e8cd;
-	margin-bottom:0px;
+	margin-bottom:0;
 	width:100%;
 	padding-top:20px;
-	padding-bottom:20px;
+	padding-bottom:20px
 }
-.footerContent {
+.footerContent{
 	max-width:600px;
 	width:70%;
 	margin:auto;
 	display:flex;
 	flex-direction:row;
 	justify-content:center;
-	align-items:center;
+	align-items:center
 }
-@media only screen and (max-width:600px) {
-	.footerContent{flex-direction:column;}
+@media only screen and (max-width:600px){
+.footerContent{flex-direction:column}
 }
-.footerText {
+.footerText{
 	line-height:1.5;
 	margin:auto;
 	text-align:center;
-	padding-bottom:20px;
+	padding-bottom:20px
 }
-.footerLinks {
+.footerLinks{
 	text-decoration:none;
 	font-weight:650;
-	line-height:1.6;
+	line-height:1.6
 }
-.backToTop {
-	cursor:pointer;
+.backToTop{
+	cursor:pointer
 }
-.footerDivider {
+.footerDivider{
 	height:70px;
 	width:1px;
-	background-color:#AAAAAA;
-	margin:auto;
+	background-color:#aaa;
+	margin:auto
 }
-@media only screen and (max-width:600px) {
+@media only screen and (max-width:600px){
 	.footerDivider{
 		width:70%;
 		height:1px;
-		margin-bottom:15px;
+		margin-bottom:15px
 	}
 }
-.logo {
+.logo{
 	width:100px;
 	margin:auto;
-	display:block;
+	display:block
 }
-.article {
-}
-h1,h2,h3 {
+h1,h2,h3{
   line-height:1.2
 }
-.paragraph {
-	font-size:17px;
+.paragraph{
+	font-size:17px
 }
-p, .paragraph {
+.paragraph,p {
 	line-height:1.6;
-	margin-top:0px;
+	margin-top:0
 }
 .paragraphLinks{
-	color:#0077aa;
-	transition:0.3s;
+	color:#07a;
+	transition:0.3s
 }
-.paragraphLinks:visited {
-	color:#0077aa;
+.paragraphLinks:visited{
+	color:#07a
 }
-.paragraphLinks:hover {
+.paragraphLinks:hover{
 	text-decoration:none;
-	color:#990000;
+	color:#900
 }
-.paragraphLinks:active {
-	color:#990000;
+.paragraphLinks:active{
+	color:#900
 }
-.articleSeparator {
+.articleSeparator{
 	height:1px;
-	background-color:#DDDDDD;
+	background-color:#ddd;
 	width:60%;
-	margin:auto;
-	margin-top:25px;
-	margin-bottom:15px;
+	margin:25px auto 15px
 }
 /* IMAGES */
-.imgDivLeft, .imgDivCenter, .imgDivRight {
+.imgDivLeft,.imgDivCenter,.imgDivRight{
 	width:100%;
-	display: inline-block;
+	display:inline-block
 }
-.imgLeft, .imgCenter, .imgRight {
+.imgLeft,.imgCenter,.imgRight{
    border:1px solid #021a40;
-	 max-width:390px;
 	 width:100%;
-	 max-width:device-width;
+	 max-width:390px;
+	 max-width:device-width
 }
-.imgDivLeft {
-	align-items:left;
+.imgDivLeft{
 	float:left;
-	text-align:left;
+	text-align:left
 }
-.imgLeft {
-	align-items:left;
+.imgLeft,.imgDivLeft{
+	align-items:left
 }
 .imgDivCenter{
-	align-items:center;
 	float:center;
-	text-align:center;
+	text-align:center
 }
-.imgCenter {
-	align-items:center;
+.imgCenter,.imgDivCenter{
+	align-items:center
 }
-.imgDivRight {
-	align-items:right;
+.imgDivRight{
 	float:right;
-	text-align:right;
+	text-align:right
 }
-.imgRight {
-	align-items:right;
+.imgRight,.imgDivRight{
+	align-items:right
 }
-.imgDescribe {
-	color:#888888;
+.imgDescribe{
+	color:#888;
 	font-size:12px;
 	margin-top:-3px;
 	padding-bottom:10px;
 	vertical-align:top;
-	display:block;
+	display:block
 }
+/* FONT: OpenSans */
+@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(res/OpenSans.woff2) format('woff2');unicode-range:U+0460-052F,U+20B4,U+2DE0-2DFF,U+A640-A69F}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(res/OpenSans.woff2) format('woff2');unicode-range:U+0400-045F,U+0490-0491,U+04B0-04B1,U+2116}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(res/OpenSans.woff2) format('woff2');unicode-range:U+1F00-1FFF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(res/OpenSans.woff2) format('woff2');unicode-range:U+0370-03FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(res/OpenSans.woff2) format('woff2');unicode-range:U+0102-0103,U+1EA0-1EF9,U+20AB}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(res/OpenSans.woff2) format('woff2');unicode-range:U+0100-024F,U+1E00-1EFF,U+20A0-20AB,U+20AD-20CF,U+2C60-2C7F,U+A720-A7FF}@font-face{font-family:'Open Sans';font-style:normal;font-weight:400;src:local('Open Sans'),local('OpenSans'),url(res/OpenSans.woff2) format('woff2');unicode-range:U+0000-00FF,U+0131,U+0152-0153,U+02C6,U+02DA,U+02DC,U+2000-206F,U+2074,U+20AC,U+2212,U+2215}
