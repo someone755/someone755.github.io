@@ -62,7 +62,7 @@ body{
 	background-color: #141412;
 	color:#fff
 }
-.menulinks:active {
+.menulinks:active{
 	background-color: #900
 }
 .content{
@@ -72,6 +72,11 @@ body{
 	max-width:650px;
 	color:#444;
 	padding-bottom:20px
+}
+@media only screen and (min-width:1000px){
+	.content, .footerContent{
+		padding-right:10%
+	}
 }
 .footerWrapper{
 	box-shadow:0 2px 2px -1px #888 inset;
