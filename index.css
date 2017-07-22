@@ -131,7 +131,15 @@ body{
 	display:block
 }
 h1,h2,h3{
-  line-height:1.2
+  line-height:1.2;
+  margin-bottom:5px
+}
+.postData{
+  color:#888;
+  font-size:12px;		
+  line-height:1.2;
+  margin-bottom:5px;
+  margin-left:15px
 }
 .paragraph{
 	font-size:17px
