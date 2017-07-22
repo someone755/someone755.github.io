@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+
+  <title>someone755 RSS Feed</title>
+  <description>A website about ... I don't know honestly.</description>
+  <link>https://someone755.github.io</link>
+
+<item>
+  <title>Lettuce Play: Firewatch</title>
+  <pubDate>Sat, 8 Jul 2017 00:00:00 GMT</pubDate>
+  <description>My attempt at reviewing my experience with Campo Santo's Firewatch.</description>
+  <link>https://someone755.github.io/content/20170708</link>
+</item>
+
+<item>
+  <title>Finally done?</title>
+  <pubDate>Wed, 26 Apr 2017 00:00:00 GMT</pubDate>
+  <description>I ramble on for a few hundred words about how and why I made/redesigned my website.</description>
+  <link>https://someone755.github.io/content/20170426</link>
+</item>
+
+</channel>
+</rss>
