@@ -141,6 +141,24 @@ h1,h2,h3{
   margin-bottom:5px;
   margin-left:15px
 }
+.octicon{
+	width:12px;
+	height:12px;
+	margin-bottom:-2px;
+	display:inline-block
+}
+.octicon-calendar{
+	background:url(res/calendar.svg);
+	background-size:cover
+}
+.octicon-clock{
+	background:url(res/clock.svg);
+	background-size:cover
+}
+.octicon-tag{
+	background:url(res/tag.svg);
+	background-size:cover
+}
 .paragraph{
 	font-size:17px
 }

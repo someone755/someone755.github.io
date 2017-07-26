@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="56" height="56" viewBox="-0.5 0 56 56">
+  <defs>
+    <clipPath id="clip-path">
+      <rect width="55" height="56"/>
+    </clipPath>
+  </defs>
+  <g clip-path="url(#clip-path)">
+    <image width="55" height="56" xlink:href="data:img/png;base64,iVBORw0KGgoAAAANSUhEUgAAADcAAAA4CAQAAADzhKgYAAAABGdBTUEAALGPC/xhBQAAACBjSFJNAAB6JgAAgIQAAPoAAACA6AAAdTAAAOpgAAA6mAAAF3CculE8AAAAAmJLR0QAAKqNIzIAAAAJcEhZcwAALuAAAC7gAQ8O1+EAAAAHdElNRQfhBxsACgtJyV8LAAABTElEQVRYw7XYyxLDIAgF0Mj48f1ru2oniTzuRciSime0iaLjc92edWHPANttz6SpX9sUKQksm/HnUqmZrGmkaVO1lAg5pXOL2B0MBSVBeaQPIPndgppSYRqfg3PrBvknR3ZKM6M7GGGWS4J5LgWecPubHIJn3D7GADznKLCCI8AaDgaZNTMC74jx4VeNDhxhJQeAtVwIVnMBWM+5YAfngKKHu0B5/NAOviezGZSLXNPPQO1VaQRFCTaCogX7QNGCfaBowXLw9t0Zwy4EjVWlBwzWzFrwmT20764OfGHWjlADbpi9AZ2DCubtd2egivnbax5cVj/+bp4Dl91HVDzw4PLy41qFA10MK41wMMDQSgwDQwwv/GIQwJg60wchjCtr7ZM4iPFVtAbCWKZof4MEVnMnBmPZI8kgogWc1jV0pq+6EwMvECbWzATJ29ovsadXCvhLZBsAAAAASUVORK5CYII="/>
+  </g>
+</svg>
